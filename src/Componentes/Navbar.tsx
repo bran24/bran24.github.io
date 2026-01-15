@@ -25,7 +25,7 @@ const Navbar = () => {
                 <ul className="hidden md:flex gap-8">
                     {menuItems.map((item) => (
                         <li key={item.name}>
-                            <a href={item.href} className="text-white text-[17px] hover:text-black transition-colors font-medium">
+                            <a href={item.href} className="text-white text-[20px] hover:text-black transition-colors font-medium">
                                 {item.name}
                             </a>
                         </li>

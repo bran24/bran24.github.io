@@ -20,7 +20,7 @@ const ProjectCard = () => {
 
         <section id="proyectos" className="py-20 max-w-7xl mx-auto px-4">
         
-        <h2 className="text-3xl font-bold mb-6 text-center">Proyectos</h2>
+        <h2 className="text-3xl font-bold mb-10 text-center">Proyectos</h2>
 
 
 
