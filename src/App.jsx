@@ -3,11 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import yoImg from './assets/yo.png'
-import Navbar from './componenetes/navbar'
-import Experience from './componenetes/Experiencia'
-import Skills from './componenetes/skills'
-import ProjectCard from './componenetes/proyectos'
-import FooterCustom from './componenetes/FooterCustom'
+import Navbar from './Componentes/Navbar'
+import Experience from './Componentes/Experiencia'
+import Skills from './Componentes/Skills'
+import ProjectCard from './Componentes/Proyectos'
+import FooterCustom from './Componentes/FooterCustom'
+import Formacion from './Componentes/Formacion'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,7 +19,7 @@ function App() {
 
 
 
-      <main className="flex-grow pt-16 ">
+      <main className="grow pt-16">
         {/* presentacion*/}
         <section id="presentacion" className="min-h-[90vh] flex items-center justify-center px-6 bg-white">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 ">
@@ -43,44 +44,16 @@ function App() {
           </div>
         </section>
 
-        <section id="formacion" className="py-20 max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-10">Formacion</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Aquí irían tus tarjetas de formacion */}
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className='flex justify-between'>
-                <h3 className="text-lg font-semibold mb-2">Universidad Privada Antenor Orrego</h3>
-                <p className="text-gray-600 font-bold">2016 - 2022</p>
-              </div>
-              <p className="text-gray-600">Ingeniería de Computación y Sistemas</p>
-            </div>
+        <Formacion/>
 
-          </div>
-        </section>
+        
+        <Experience />
 
-        {/* SECCIÓN PROYECTOS */}
-        <section id="laboral" className="py-20 max-w-4xl mx-auto px-4">
-          <Experience />
+       
+        <Skills />
 
-
-
-        </section>
-        {/* SECCIÓN HABILIDADES */}
-        <section id="habilidades" className="py-20 ">
-          <Skills />
-
-        </section>
-
-
-        <section id="proyectos" className="py-20 max-w-7xl mx-auto px-4">
-          <ProjectCard />
-
-
-
-        </section>
-
-
-
+       
+        <ProjectCard />
 
 
 

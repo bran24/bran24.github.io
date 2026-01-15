@@ -1,30 +1,33 @@
+import { MdWeb } from "react-icons/md";
+import { FaDatabase } from "react-icons/fa";
+import { IoIosPhonePortrait } from "react-icons/io";
+import { FaTools } from "react-icons/fa";
 const Skills = () => {
     const categories = [
         {
             title: "Web/Escritorio",
             skills: ["React js", "Laravel", "Tailwind CSS", "TypeScript", "express js", "node js", "Php", "C#", "Python"],
-            icon: "🎨"
+            icon:  <MdWeb className="text-primary"  />
         },
         {
             title: "Movil",
             skills: ["Flutter", "Dart"],
-            icon: "📱"
+            icon: <IoIosPhonePortrait className="text-primary"/>
         },
         {
             title: "Base de datos",
             skills: ["MySQL", "PostgreSQL", "SQLite", "SQL SERVER"],
-            icon: "⚙️"
-        },
+            icon: < FaDatabase className="text-primary"/>},
         {
             title: "Herramientas",
             skills: ["Github", "Docker", "Vite", "Bizagi modeler", "Cypress"],
-            icon: "🛠️"
+            icon: < FaTools className="text-primary"/>
         },
 
     ];
 
     return (
-        <>
+       <section id="habilidades" className="py-20 ">
             <div className="max-w-7xl mx-auto px-4">
                 <h2 className="text-3xl font-bold text-center mb-12">Habilidades</h2>
 
@@ -44,7 +47,7 @@ const Skills = () => {
                     ))}
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 

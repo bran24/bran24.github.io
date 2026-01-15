@@ -1,4 +1,3 @@
-import React from 'react'
 
 import bodegaweb from "../assets/bodegaweb.png";
 
@@ -9,7 +8,7 @@ const ProjectCard = () => {
             description: "Sistema de Venta de Bodega",
             image: bodegaweb,
             tags: ["React Js", "Tailwind", "Mysql", "NodeJs", "Express", "Typescript"],
-            github: "https://github.com/tu-usuario/repo",
+            github: "https://github.com/bran24/BodegaWebAplicacion.git",
             demo: "https://tu-demo.com"
         }
 
@@ -19,7 +18,9 @@ const ProjectCard = () => {
 
     return (
 
-        <>  <h2 className="text-3xl font-bold mb-6 text-center">Proyectos</h2>
+        <section id="proyectos" className="py-20 max-w-7xl mx-auto px-4">
+        
+        <h2 className="text-3xl font-bold mb-6 text-center">Proyectos</h2>
 
 
 
@@ -27,13 +28,13 @@ const ProjectCard = () => {
 
                 {projects && projects?.length > 0 ? projects.map((project, index) => (
 
-                    <div className="bg-border rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 bg-white ">
+                    <div className="bg-border rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 bg-white">
                         {/* Imagen del proyecto */}
 
                         <img
                             src={project.image}
                             alt={project.title}
-                            className="w-full h-64"
+                            className="w-full h-64 transform hover:scale-105 transition-transform duration-500"
                         />
 
 
@@ -53,7 +54,7 @@ const ProjectCard = () => {
 
                             {/* Botones */}
                             <div className="flex gap-4">
-                                <a href={project.github} className="flex-1 text-center py-2 bg-gray-900 text-white rounded-lg text-sm hover:bg-gray-800 transition">
+                                <a href={project.github} className="flex-1 text-center py-2 bg-primary text-white rounded-lg text-sm hover:bg-gray-800 transition">
                                     Código
                                 </a>
                                 <a href={project.demo} className="flex-1 text-center py-2 border border-gray-300 rounded-lg text-sm hover:bg-gray-50 transition">
@@ -70,7 +71,7 @@ const ProjectCard = () => {
             </div>
 
 
-        </>
+       </section>
 
     );
 }
