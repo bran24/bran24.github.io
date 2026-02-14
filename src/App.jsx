@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <><div class="flex flex-col min-h-screen bg-gray-50">
+    <><div className="flex flex-col min-h-screen bg-gray-50">
 
       <Navbar />
 

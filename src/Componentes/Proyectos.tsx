@@ -8,11 +8,20 @@ const ProjectCard = () => {
             description: "Sistema de Venta de Bodega",
             image: bodegaweb,
             tags: ["React Js", "Tailwind", "Mysql", "NodeJs", "Express", "Typescript"],
-            github: "https://github.com/bran24/BodegaWebAplicacion.git",
-            demo: "https://tu-demo.com"
+            github: ["https://github.com/bran24/BodegaWebAplicacion.git","https://github.com/bran24/BodegaWebApi"],
+            demo: "https://bodega-web-aplicacion.vercel.app/"
         }
 
     ]
+
+
+    const abrirEnlaces = (enlaces:any) => {
+
+    window.open(enlaces[0], '_blank');
+    
+    window.location.href = enlaces[1];
+  
+};
 
 
 
@@ -54,12 +63,11 @@ const ProjectCard = () => {
 
                             {/* Botones */}
                             <div className="flex gap-4">
-                                <a href={project.github} className="flex-1 text-center py-2 bg-primary text-white rounded-lg text-sm hover:bg-gray-800 transition">
-                                    Código
-                                </a>
-                                <a href={project.demo} className="flex-1 text-center py-2 border border-gray-300 rounded-lg text-sm hover:bg-gray-50 transition">
-                                    Demo
-                                </a>
+                                <button onClick={ () =>abrirEnlaces(project.github)} className="flex-1 text-center py-2 bg-primary text-white rounded-lg text-sm hover:bg-gray-800 transition"> Código</button>
+                                 <button onClick={ () =>    window.open(project.demo, '_blank') } className="flex-1 text-center py-2 bg-primary text-white rounded-lg text-sm hover:bg-gray-800 transition"> Demo</button>
+                                 
+                                
+                                
                             </div>
                         </div>
                     </div>
