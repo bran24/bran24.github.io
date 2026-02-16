@@ -29,7 +29,7 @@ function App() {
                 Hola, mi nombre es <span className="text-primary">Brandon</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
-                Soy Bachiller de la carrera de Ingeniería de computación y sistemas, motivado a cumplir las expectativas de la empresa y demostrar sus conocimientos y habilidades obtenidas para que la organización pueda lograr sus objetivos de manera eficiente. Deseoso de conseguir una oportunidad de trabajo estable luego de demostrar sus capacidades.
+               Soy un Ingeniero de Computación y Sistemas con experiencia profesional en el desarrollo de aplicaciones web, móviles y gestión de datos (ETL). Especializado en el mantenimiento y optimización de sistemas empresariales utilizando stacks modernos como React js, Flutter, Phyton. Enfocado en construir soluciones eficientes y escalables basadas en requerimientos de negocio reales.
               </p>
             </div>
 

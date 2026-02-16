@@ -6,7 +6,7 @@
         {
             nombre:"Universidad Privada Antenor Orrego",
             Periodo:"2016 - 2022",
-            tipo:"Ingeniería de Computación y Sistemas"
+            tipo:" Bachiller de Ingeniería de Computación y Sistemas"
             
 
 
