@@ -4,10 +4,10 @@ import bodegaweb from "../assets/bodegaweb.png";
 const ProjectCard = () => {
     const projects = [
         {
-            title: "Sistema de Bodega",
-            description: "Sistema de Venta de Bodega",
+            title: "Aplicacion Fullstack de Gestión Ventas con IA y Pagos Digitales",
+            description: "Aplicación Fullstack para la gestión de bodegas y comercios que automatiza el control de inventario y el proceso de ventas. Implementa una pasarela de pagos moderna con Mercado Pago (Yape y Tarjetas), un asistente virtual con Inteligencia Artificial para soporte al usuario y un sistema de generación de reportes y boletas en PDF en tiempo real. Desarrollada con arquitectura escalable y tipado fuerte para garantizar la estabilidad del negocio.",
             image: bodegaweb,
-            tags: ["React Js", "Tailwind", "Mysql", "NodeJs", "Express", "Typescript"],
+            tags: ["React Js", "Tailwind", "Mysql", "NodeJs", "Express js", "Typescript", "API de Gemini","Mercado Pago API","jsPDF/Generación de Reportes"],
             github: ["https://github.com/bran24/BodegaWebAplicacion.git","https://github.com/bran24/BodegaWebApi"],
             demo: "https://bodega-web-aplicacion.vercel.app/"
         }
