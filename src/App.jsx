@@ -29,7 +29,7 @@ function App() {
                 Hola, mi nombre es <span className="text-primary">Brandon</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
-               Soy un Ingeniero de Computación y Sistemas con experiencia profesional en el desarrollo de aplicaciones web, móviles y gestión de datos (ETL). Especializado en el mantenimiento y optimización de sistemas empresariales utilizando stacks modernos como React js, Flutter, Phyton. Enfocado en construir soluciones eficientes y escalables basadas en requerimientos de negocio reales.
+               Soy un Ingeniero de Computación y Sistemas con más de un año de experiencia profesional en el desarrollo de aplicaciones de escritorio, web, móviles y gestión de datos (ETL). Especializado en el mantenimiento y optimización de aplicaciones empresariales utilizando stacks modernos como .NET/C#, React.js, Python, Flutter asegurando la correcta separación en capas. Enfocado en construir soluciones eficientes y escalables basadas en requerimientos de negocio reales y aprendizaje continuo.
               </p>
             </div>
 
